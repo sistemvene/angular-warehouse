@@ -1,0 +1,48 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  margin: 175px auto 0;
+  width: 1000px;
+
+  &__header {
+    color: #1d0f60;
+    text-transform: uppercase;
+    font-size: 26px;
+  }
+
+  &__line {
+    border: 1px solid #1d0f60;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  &__empty {
+    color: #1d0f60;
+    font-size: 21px;
+  }
+
+  &__subtotal {
+    margin-top: 80px;
+    margin-left: auto;
+    color: #1d0f60;
+    font-size: 22px;
+  }
+
+  &__checkout {
+    margin-top: 20px;
+    margin-left: auto;
+    background: #1d0f60;
+    color: white;
+    font-size: 21px;
+    width: 205px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+  }
+}
+
+.icon {
+  position: relative;
+  top: 3px;
+  font-size: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,37 @@
+:host {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.apparels {
+  &__apparel {
+    position: relative;
+    height: 350px;
+    width: calc(100% / 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__image {
+    max-width: 225px;
+    max-height: 225px;
+  }
+
+  &__name {
+    position: absolute;
+    top: 5%;
+    font-style: italic;
+    font-size: 20px;
+  }
+
+  &__price {
+    position: absolute;
+    bottom: 10%;
+  }
+
+  &__add-cart {
+    cursor: pointer;
+  }
+}
+

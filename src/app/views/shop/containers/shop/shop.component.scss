@@ -1,0 +1,26 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  padding: 200px 0 0 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.shop {
+  display: flex;
+  width: 100%;
+
+  &__bar {
+    width: 15%;
+  }
+
+  &__apparels {
+    width: 85%;
+  }
+
+  &__loading {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,49 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+
+.location {
+  &__gmap {
+    margin-bottom: 40px;
+  }
+
+  &__navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+
+    &-search, &-reignarr, &-current {
+      width: 35%;
+    }
+
+   :host::ng-deep & > .mat-form-field-wrapper {
+      width: 100%;
+    }
+
+    &-search {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0;
+
+      &-input {
+        width: 60%;
+      }
+
+      &-button {
+        width: 38%;
+        height: 100%;
+      }
+    }
+
+    &-position-button {
+      width: 100%;
+      margin: 5px 0;
+    }
+  }
+}
